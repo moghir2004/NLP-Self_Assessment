@@ -1,0 +1,42 @@
+id, text                                                                                                                                                                                                                                                                                                                                                                     , label       , type, switch_point, script
+ 1, "Bonjour, je voudrais des infos sur les horaires des trains."                                                                                                                                                                                                                                                                                                            , info_request, FR  ,             , latin
+ 2, "Salam, bghit nswlk 3la taman."                                                                                                                                                                                                                                                                                                                                          , info_request, AR  ,             , latin
+ 3, "Salam fin jat la gare?"                                                                                                                                                                                                                                                                                                                                                 , directions  , CS  , mid         , latin
+ 4, "Salut, واش تقدر تعطيني l'adresse ديال la mairie?"                                                                                                                                                                                                                                                                                                                       , directions  , CS  , mid         , mixed
+ 5, "Pour les gens li ki khl3o nas b dik lhdra rah t3tlto et les gens li khayfin calmez-vous hahia campus france jawbatkom"                                                                                                                                                                                                                                                  , complaint   , CS  , early       , latin
+ 6, "Oui mais kaybqa dossier incomplet bien sûr ila wahd dfe3 o wslhum le dossier kaml ay acceptih w ayched blassa f la formation du coup nta après fach dossier kaytcompletta ra malheureusement khdaw ach bghaw"                                                                                                                                                           , info        , CS  , early       , latin
+ 7, "Hadchi mafihsh kaykhel3o nas fih logique o chehal dlblays mn les étrangers f kula formation ( surtout les formation scientifique ra kna kankunu max 30 b les français en plus)"                                                                                                                                                                                         , info        , CS  , early       , latin
+ 8, "Salam les amis bghit ndfa3 master f Paris saclay wlkin Ma3andich des lettres de recommandation chnou l7al ?"                                                                                                                                                                                                                                                            , info_request, CS  , early       , latin
+ 9, "Wch c normal jai eu 2 refus juste le lendemain après ma sefto mon dossier les universités ?"                                                                                                                                                                                                                                                                            , info_request, CS  , late        , latin
+10, "SVP fach knt drt soumis dossier knt mazal makhdit attestation de scolarité w le relevé dyal S5 fach dwzt entretien dithom m3aya o gal lia l'agent beli ayzidhom f la boite pastel mais daba sifto lia l mail (l’examen de votre projet d’études par nos services est terminée.) o hadak mazadtch lia dok les documents li3tito chno ndir wach nmchi l 3ndhom wla chno ?", info_request, CS  , mid         , latin
+11, "Khoti chnahwa selon vous un bon premier salaire f had lblad ?"                                                                                                                                                                                                                                                                                                          , info_request, CS  , mid         , latin
+12, "Atwal passage piéton kayn f casa"                                                                                                                                                                                                                                                                                                                                     ,complaint   ,CS  ,mid         ,latin
+13, "Réaction à AGUST D li mtafq ydir like"
+14, "Content dyal reaction fach kan ba9i n9i"
+15, "weld char9i nadi and thats it"
+16, "Nari asat wakha ykon mkhlshom blbitcoin"
+17, "khoya baghi ndir chi ma7al diyal hadchi diyal faceless content, wach hadchi khdam ?"
+18, "Khoya idir svp dak drive li knti 7titi f les ressources mab9ach fih doc solus"
+19, "Bro dir lina podcast m3a mohamed taha remlaoui"
+20, "Salam. Svp j’ai une question concernant Um6p au Maroc ila jat 3ka khatrk. 3afak wach tsjil fl um6p kaytsed bkri? Y3ni wach kayna possibilité ytssed f le mois 2 par exemple ? 7it tsjil bda o madaroch date de fermeture et ba9i majm3tch les docs kamlin o khft lant3tl ola chi 7aja. Svp Ila kant 3ndk chi information 3la tsjal imta kaytsed, or based on your own experience ila knti déjà tsjlti fiha, I’d appreciate your help!",
+21, "3lash na9azti l prof lakher mablanch abro matsdera ma walo khlina men dakshy dyal walo"
+22, "Khouti wash la d3ithom ayaetiwni shi compensation ?"
+23, "kan7ess brasi excellent"
+24, "Daba ana daf3 pour L1 w ana déjà kan9ra fiha wach ila jatni acceptation khasni darori n9ra S2 wnseftlhom résultat dyalha?"
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
