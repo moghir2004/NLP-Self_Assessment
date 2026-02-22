@@ -10,15 +10,15 @@ class Node:
         self.relation = relation
 
 class Tree:
-    def __init(self,nodes,deps)
-    def render(node,governor,deprel):
-        governor = node.head
-        deprel = node.deprel
-        if governor == 0:
-                    
-        
-        
-    
+    def __init__(self,nodes):
+        self.nodes = { node.id:node for node in nodes }
+        self.deps = []
+        self.root_id = None
+        for node in nodes:
+            if node.head == 0:
+                self.root_id = node.id
+            else:
+                self.deps.append((node.head, node.relation, node.id))
 
 def reader(file_path):
     sentences = []
@@ -31,18 +31,14 @@ def reader(file_path):
                     sentences.append(current)
                     current = []
             else:
-                parts = line.strip().split()
-                data = Node(parts[0],parts[1],parts[2],parts[3],parts[4],parts[5],parts[6],parts[7])
-                # parts[0] = dependent word
-                # parts[6] = governor word
-                # parts[7] = dependency label
+                parts = line.strip().split("	")
+                parsedId = int(parts[0])
+                parsedHead = int(parts[6])
+                data = Node(parsedId,parts[1],parts[2],parts[3],parts[4],parts[5],parsedHead,parts[7])
                 current.append(data)
-            if current:
-                sentences.append(current)
-    return sentences
+        return sentences
 
 conll_data = reader("sequoia.7.0.expanded.conll")
 for sentence in conll_data:
-    print("tree:")      
-    for token in sentence:
-        print(token)
+    tree = Tree(sentence)
+    print(tree.deps)
