@@ -11,10 +11,11 @@ class Node:
 
 class Tree:
     def __init__(self,nodes):
-        self.nodes = { node.id:node for node in nodes }
+        self.nodes = {}
         self.deps = []
         self.root_id = None
         for node in nodes:
+            self.nodes.update({node.id:node})
             if node.head == 0:
                 self.root_id = node.id
             else:
