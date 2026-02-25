@@ -76,7 +76,9 @@ for sentence in conll_data:
     head_of_rel_clause += h
 
 probability_post = (postverbal_verbs / total_verbs) if total_verbs else 0.0
+probability_rel = (head_of_rel_clause / postverbal_verbs) if postverbal_verbs else 0.0
 print("total:", total_verbs)
 print("postverbal:", postverbal_verbs)
 print("head of rel clause", head_of_rel_clause)
 print("probability_post:", probability_post)
+print("probability_post_rel:", probability_rel)
