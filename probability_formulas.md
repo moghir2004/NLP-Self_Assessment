@@ -1,0 +1,1 @@
+$$P(REL|INV)=\frac{P(REL)}{P(INV)}$$
